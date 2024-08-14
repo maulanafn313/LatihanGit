@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <h1>Selamat datang di evaluasi HTML</h1>
+    <p>Halaman ini bertujuan untuk mempelajari elemen dasar HTML</p>
+    <h2>Pengelolaan Teks</h2>
+    <hr>
+    <p>
+        <strong>Bill Gates</strong> adalah seorang pengusaha, filantropis, dan penulis asal Amerika Serikat yang dikenal sebagai pendiri Microsoft, perusahaan perangkat lunak terbesar di dunia. Lahir pada 28 Oktober 1955 di <em>Seattle</em>, Gates memainkan peran kunci dalam revolusi komputer pribadi dengan menciptakan sistem operasi Windows yang mendominasi pasar global. Selain kesuksesan di dunia teknologi, Gates juga dikenal atas kontribusinya dalam filantropi melalui <em>Bill & Melinda Gates Foundation</em>, yang fokus pada kesehatan global, pendidikan, dan pengentasan kemiskinan. Gates sering disebut sebagai salah satu orang terkaya dan paling berpengaruh di dunia.
+    </p>
+    <blockquote>
+        - Bill Gates
+        <cite>Bill & Melinda Gates Foundation</cite>
+    </blockquote>
+
+    <h2>Hyperlink dan Gambar</h2>
+    <p>
+        <a href="https://www.microsoft.com/">Microsoft</a> adalah perusahaan teknologi multinasional yang didirikan oleh Bill Gates dan Paul Allen pada tahun 1975. Berkantor pusat di Redmond, Washington, Microsoft dikenal sebagai pengembang sistem operasi Windows, yang telah menjadi platform utama untuk komputer pribadi di seluruh dunia. Selain Windows, Microsoft juga mengembangkan berbagai produk perangkat lunak populer seperti Microsoft Office, serta layanan dan produk berbasis cloud seperti Azure dan Office 365. Perusahaan ini juga memiliki divisi perangkat keras yang menciptakan produk seperti Xbox dan Surface. Sebagai salah satu perusahaan teknologi terbesar di dunia, Microsoft berperan penting dalam mengubah cara orang bekerja, bermain, dan berkomunikasi di era digital.
+    </p>
+    <a href="https://www.microsoft.com/" target="_blank">
+        <img src="https://logodownload.org/wp-content/uploads/2014/04/microsoft-logo-1.png" width="400" alt="Microsoft_logo">
+    </a>
+
+    <h2>Membuat Daftar</h2>
+    <ol>
+        <li>Bisa menguasai React Js</li>
+        <li>Bisa menguasai Laravel</li>
+        <li>Fullstack Developer</li>
+    </ol>
+
+    <ul>
+        <li>Main bola</li>
+        <li>Membaca</li>
+        <li>Berenang</li>
+    </ul>
+
+    <h2>Tabel Data</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Andry</td>
+            <td>19</td>
+            <td>Banjarwangi</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>23</td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td>Johstone</td>
+            <td>34</td>
+            <td>Jakarta</td>
+        </tr>
+    </table>
+
+    <h2>Formulir Pendaftaran</h2>
+    <form action="">
+        <p>
+            <label for="">nama Lengkap: </label>
+            <input type="text">
+        </p>
+        
+        <p>
+            <label for="">  Email:</label>
+            <input type="email">
+        </p>
+
+        <p>
+            <label for="">Jenis Kelamin:</label> <br>
+            <input type="radio" name="gender">
+            <label for="">Laki-laki</label>
+            <input type="radio" name="gender">
+            <label for="">Perempuan</label>
+        </p>
+
+        <p>
+            <label for="">Kota: </label> <br>
+            <select name="kota" id="">
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+                <option value="bogor">Bogor</option>
+                <option value="depok">Depok</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="checkbox" name="setuju">
+            <label>Saya Menyetujui Kebijakan Privasi dan Kebijakan Cookie</label>
+        </p>
+
+        <textarea name="" id="">Tuliskan kritik dan saran</textarea>
+        
+        <br> <br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
